@@ -6,10 +6,9 @@ Publication Request:
    All attributes are numeric-valued.  The data was collected from the
    four following locations:
 
-     1. Cleveland Clinic Foundation (cleveland.data)
-     2. Hungarian Institute of Cardiology, Budapest (hungarian.data)
-     3. V.A. Medical Center, Long Beach, CA (long-beach-va.data)
-     4. University Hospital, Zurich, Switzerland (switzerland.data)
+     1. Hungarian Institute of Cardiology, Budapest (hungarian.data)
+     2. V.A. Medical Center, Long Beach, CA (long-beach-va.data)
+     3. University Hospital, Zurich, Switzerland (switzerland.data)
 
    Each database has the same instance format.  While the databases have 76
    raw attributes, only 14 of them are actually used.  Thus I've taken the
@@ -25,7 +24,6 @@ Publication Request:
        1. Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.
        2. University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.
        3. University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
-       4. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation:
 	  Robert Detrano, M.D., Ph.D.
 
    Thanks in advance for abiding by this request.
@@ -41,7 +39,6 @@ Publication Request:
        -- 1. Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.
        -- 2. University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.
        -- 3. University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
-       -- 4. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation:
              Robert Detrano, M.D., Ph.D.
    (b) Donor: David W. Aha (aha@ics.uci.edu) (714) 856-8779   
    (c) Date: July, 1988
@@ -99,7 +96,6 @@ Publication Request:
     
 5. Number of Instances: 
         Database:    # of instances:
-          Cleveland: 303
           Hungarian: 294
         Switzerland: 123
       Long Beach VA: 200
