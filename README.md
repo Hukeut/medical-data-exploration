@@ -79,4 +79,3 @@ cd <medical-data-exploration>
 ./init.sh
 
 source hdenv/bin/activate
-
