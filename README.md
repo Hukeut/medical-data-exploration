@@ -46,14 +46,8 @@ The focus is on clean, clear results (“straight outputs”), well-documented n
 ---
 
 ## Project Structure
-project/
-│
-├── notebooks/ # Jupyter notebooks with analysis & models
-│ └── analysis.ipynb
-├── data/ # Place your CSV dataset here
-├── requirements.txt # Python dependencies
-├── init.sh # Script to setup environment and Jupyter kernel
-└── README.md # Project README
+
+![CI](https://github.com/<your-username>/<repo>/actions/workflows/ci.yml/badge.svg)
 
 project/
 │
