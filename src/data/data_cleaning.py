@@ -62,8 +62,12 @@ df.replace("-9", np.nan, inplace=True)
 
 df = df.apply(pd.to_numeric, errors="ignore")
 
-irrelevant_cols = ["id", "ccf", "dummy", "lvx1", "lvx2", "lvx3", "lvx4", "lvf", "cathef", "junk", "name", "thalsev", "thalpul", "earlobe", "restckm", "exerckm"]
-df.drop(columns=irrelevant_cols, inplace=True)
+relevant_columns = [
+    "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
+    "exang", "oldpeak", "slope", "ca", "thal", "num"
+]
+
+df= df[relevant_columns]
 
 df = df.drop_duplicates()
 
