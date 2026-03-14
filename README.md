@@ -79,3 +79,11 @@ cd <medical-data-exploration>
 ./init.sh
 
 source hdenv/bin/activate
+
+
+## Exploratory Data Analysis
+
+An automated exploratory data analysis report was generated using ydata-profiling.
+
+You can view the full report here:
+reports/eda_report.html
