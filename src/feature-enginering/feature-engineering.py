@@ -41,6 +41,8 @@ df_encoded = pd.get_dummies(
 
 scaler = StandardScaler()
 
+df_encoded = df_encoded.dropna()
+
 df_encoded[numerical_features] = scaler.fit_transform(
     df_encoded[numerical_features]
 )
