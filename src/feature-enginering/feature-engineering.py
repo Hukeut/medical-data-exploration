@@ -48,6 +48,6 @@ df_encoded[numerical_features] = scaler.fit_transform(
 X = df_encoded.drop("num", axis=1)
 y = df_encoded["num"]
 
-df.to_csv("Data/processed/df.data", index=False)
+df_encoded.to_csv("Data/processed/df.data", index=False)
 X.to_csv("Data/processed/X.data", index=False)
 y.to_csv("Data/processed/y.data", index=False)
