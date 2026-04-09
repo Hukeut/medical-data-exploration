@@ -87,3 +87,24 @@ An automated exploratory data analysis report was generated using ydata-profilin
 
 You can view the full report here:
 reports/eda_report.html
+
+# Conclusion
+
+This project explored the UCI Heart Disease dataset with the goal of predicting the presence of heart disease using machine learning techniques.
+
+After performing data cleaning, feature selection, and exploratory data analysis, a baseline Logistic Regression model was implemented, achieving approximately 80% accuracy. The problem was carefully reformulated as a binary classification task to align with clinical decision-making.
+
+Further improvements were achieved using ensemble methods such as Random Forest and Gradient Boosting, combined with hyperparameter tuning and cross-validation. These approaches increased performance to the 79–83% range while maintaining generalization.
+
+Special attention was given to avoiding data leakage, handling missing values, and selecting clinically relevant features. Evaluation metrics such as precision, recall, and F1-score were analyzed, with a focus on maximizing recall for the positive class (heart disease), which is critical in a medical context.
+
+Overall, this project demonstrates the importance of proper data preprocessing, model selection, and evaluation in building reliable predictive models in healthcare applications.
+
+# Future Work 
+
+Future improvements could include:
+
+Using larger and more diverse medical datasets
+Applying advanced models such as XGBoost or deep learning
+Incorporating domain knowledge for feature engineering
+Optimizing decision thresholds based on clinical risk tolerance
