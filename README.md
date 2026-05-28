@@ -49,21 +49,21 @@ The focus is on clean, clear results (“straight outputs”), well-documented n
 
 ![CI](https://github.com/<your-username>/<repo>/actions/workflows/ci.yml/badge.svg)
 
-project/
-│
-├── src/                  # All Python modules
-│   ├── data/             # Data loading & preprocessing
-│   ├── features/         # Feature engineering
-│   ├── models/           # ML models & training
-│   └── visualization/    # Plotting & dashboards
-├── notebooks/            # Minimal notebooks for demonstration
-├── tests/                # Unit tests
-├── data/                 # CSV or raw data
-├── requirements.txt
-├── init.sh
-├── .gitignore # Ignore virtual env and checkpoints
-├── hdenv/ # Python virtual environment (ignored by git)
-└── README.md
+####project/
+####│
+####├── src/                  # All Python modules
+####│   ├── data/             # Data loading & preprocessing
+####│   ├── features/         # Feature engineering
+####│   ├── models/           # ML models & training
+####│   └── visualization/    # Plotting & dashboards
+####├── notebooks/            # Minimal notebooks for demonstration
+####├── tests/                # Unit tests
+####├── data/                 # CSV or raw data
+####├── requirements.txt
+####├── init.sh
+####├── .gitignore # Ignore virtual env and checkpoints
+####├── hdenv/ # Python virtual environment (ignored by git)
+####└── README.md
 
 
 ---
